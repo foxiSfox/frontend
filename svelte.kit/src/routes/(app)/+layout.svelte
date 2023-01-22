@@ -12,11 +12,14 @@
                 <NavItem>
                     <NavLink href="/users">Users</NavLink>
                 </NavItem>
+                <NavItem>
+                    <NavLink href="/login">Login</NavLink>
+                </NavItem>
             </Nav>
         </nav>
     </header>
     <main class="main">
-        <slot></slot>
+        <slot />
     </main>
     <footer class="footer">
         <div class="copyright">&copy; 2023 - 2024</div>

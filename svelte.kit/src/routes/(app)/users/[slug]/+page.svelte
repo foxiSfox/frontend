@@ -1,5 +1,5 @@
 <script>
-    import Detail from '../../../modules/users/components/detail.svelte'
+    import Detail from '../../../../modules/users/components/detail.svelte'
     export let data;
 
     let name = data?.name || 'undefined'

@@ -1,4 +1,4 @@
-import { usersMock } from '../../../modules/users/store/index';
+import { usersMock } from '../../../../modules/users/store/index';
 
 /**
  * @type {any[]}

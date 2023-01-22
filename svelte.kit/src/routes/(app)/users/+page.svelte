@@ -1,7 +1,7 @@
 <script>
     import { Button, Table } from 'sveltestrap';
-    import { usersMock, userId } from '../../modules/users/store/index';
-    import Modal from '../../modules/users/components/modalUserCreate.svelte'
+    import { usersMock, userId } from '../../../modules/users/store/index';
+    import Modal from '../../../modules/users/components/modalUserCreate.svelte'
 
     let users;
     usersMock.subscribe(value => {
